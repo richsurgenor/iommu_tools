@@ -1,0 +1,5 @@
+#!/bin/bash
+#Simply bind the GPU and HD sound
+
+vfio-bind 0000:01:00.0 0000:01:00.1
+#echo "VFIO SCRIPT CURRENTLY OFF"
